@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>All Blogs</title>
+</head>
+<body>
+	<h1>All Blogs</h1>
+
+	<h2>{{ name }}</h2>
+
+
+	{% for blog in blogs %}
+		<h2> <a href="#"> {{ blog.header }} </a> </h2>
+	{% endfor %}
+
+</body>
+</html>
